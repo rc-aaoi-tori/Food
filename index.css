@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #020202;
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 20%;
+}
+.left img{
+    margin-left: 40px;
+   width: 50px;
+   height: 50px;
+}
+.right{
+    float: right;
+    width: 80%;
+}
+.right .row-1 {
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(food.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left li{
+
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+         margin-top: 20px;
+         margin-left: 40px;
+}
+.left ul{
+    list-style: none;
+    text-decoration: none;
+}
+.left li a{
+    color: #fdfffc;
+}
+.left ul{
+    margin-top: 100px;
+}
+.right img{
+    width: 100%;
+}
+.right h1{
+ 
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 5rem;
+        color: #fdfffc;
+      
+}
+.row-1{
+    position: relative;
+}
+.right .row-1 h1{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+ 
+}
+.right .row-2{
+    background-color: #0f0d0d;
+    height: 22rem;
+    width: 100%;
+    display: flow-root;
+}
+.right .row-2 .card-1{
+    float: left;
+    height: 10rem;
+    width: 33.33%;
+    padding-inline: 10px;
+    padding-block: 25px;
+    position: relative;
+}
+.right .row-2 .card-2{
+    float: left;
+    height: 10rem;
+    width: 33.33%;
+    position: relative;
+    padding-block: 25px;
+}
+.right .row-2 .card-3{
+    float: left;
+    height: 10rem;
+    width: 33.33%;
+    padding-inline: 10px;
+    position: relative;
+    padding-block: 25px;
+}
+.right .row-2 .card-1 img{
+    height: 300px;
+}
+.right .row-2 .card-2 img{
+    height: 300px;
+}
+.right .row-2 .card-3 img{
+    height: 300px;
+}
+.right .row-2 .card-1 section{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ text-align: center;
+ padding-top: 180px;
+ font-size: large;
+ color: white;
+}
+.right .row-2 .card-2 section{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+padding-top: 180px;
+font-size: large;
+color: white;
+}
+.right .row-2 .card-3 section{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+padding-top: 180px;
+font-size: large;
+color: white;
+}
+.a{
+    background-color: #1d1c1c;
+    display: flow-root;
+}
+.a .circle1{
+    float: left;
+    border-radius: 50%;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin-inline: 60px;
+    margin-block: 50px;
+}
+.a .circle2{
+    float: left;
+    border-radius: 50%;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin-inline: 60px;
+    margin-block: 50px;
+}
+.a .circle3{
+    float: left;
+    border-radius: 50%;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin-inline: 60px;
+    margin-block: 50px;
+}
+.circle1 img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.circle2 img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.circle3 img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.circle1 h2{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    padding-top: 50px;
+}
+.circle2 h2{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    padding-top: 50px;
+}
+.circle3 h2{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    padding-top: 50px;
+}
+.circle1 h4{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: auto;
+}
+.circle2 h4{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: auto;
+}
+.circle3 h4{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: auto;
+}
+.b .v{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.b .v h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    color: aliceblue;
+}
+/* .c{
+    background-color: #0f0d0d;
+    height: fit-content;
+    width: 100%;
+    display: flow-root;
+}
+.c .text{
+    padding-block: 50px;
+}
+.c .text h5{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+    color: white;
+}
+.c .text h2{
+    padding-block: 10px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin: auto;
+    color: white;
+}
+.c .text h3{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy1 img{
+    float: left;
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    position: relative;
+}
+.c .buy2 img{
+    float: left;
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    position: relative;
+}
+.c .buy3 img{
+    float: left;
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    position: relative;
+}
+.c .buy4 img{
+    float: left;
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    position: relative;
+}
+.c .buy1 h4{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy2 h4{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy3 h4{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy4 h4{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy1 h6{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy2 h6{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy3 h6{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy4 h6{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy1 h5{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy2 h5{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy3 h5{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy4 h5{
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+}
+.c .buy1 button{
+    position: ;
+
+} */
+.c{
+    background-color: #0f0d0d;
+    height: fit-content;
+    width: 100%;
+    display: flow-root;
+}
+.c .text{
+    padding-block: 50px;
+    color: #fff;
+    text-align: center;
+}
+.buy1,.buy2,.buy3,.buy4{
+    float: left;
+    width: 25%;
+    padding-block: 20px;
+    padding-inline: 10px;
+}
+.buy1 img,.buy2 img,.buy3 img,.buy4 img{
+    width: 100%;
+}
+.buy1 h4,.buy2 h4,.buy3 h4,.buy4 h4{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin: auto;
+    color: white;
+}
+.buy1 h6,.buy2 h6,.buy3 h6,.buy4 h6{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+    color: white;
+}
+.buy1 h5,.buy2 h5,.buy3 h5,.buy4 h5{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+    color: white;
+}
+.buy1 button,.buy2 button,.buy3 button,.buy4 button{
+    padding-inline: 70px;
+    padding-block: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.d{
+    background: #1d1c1c;
+    display: flow-root;
+    height: fit-content;
+    width: 100%;
+    padding: 20px 30px;
+
+}
+.d1, .d2{
+    display: flow-root;
+}
+.d h2,.d h5{
+    float: left;
+    width: 50%;
+}
+.d h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin: auto;
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+    color: white;
+}
+.d h5{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: auto;
+    font-size: small;
+    color: white;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+/* .d .d1 h2{
+    float: left;
+    padding-block: 40px;
+    padding-inline: 40px;
+    position: absolute;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin: auto;
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+}
+.d .d2 h5{
+    float: left;
+    padding-block: 40px;
+    padding-left: 300px;
+    padding-right: 50px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+    color: white;
+    
+    
+} */
+.e{
+    background: #2c2b2b;
+    height: fit-content;
+    width: 100%;
+    display: flow-root;
+    padding: 20px 160px;
+}
+.e .e1 input{
+    border: none;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 10px 10px;
+}
+.e .e1 label{
+    color: #fff;
+    padding-inline: 10px;
+}
+.e .e1 button{
+    background: #fff;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin-left: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.e .e1 button:hover{
+    background-color: aqua;
+}
+.e .e1 button h4{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    margin: auto;
+    color: #020202;
+}
+.footer{
+    background: #020202;
+    height: fit-content;
+    width: 100%;
+    display: flow-root;
+}
+
+
+.footer .f1 , .f2 , .f3 {
+    float: left;
+    padding-block: 40px;
+    padding-inline: 80px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    margin: auto;
+    color: white;
+    list-style: none;
+}
+.footer .f1 h3, .f2 h3, .f3 h3{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    margin: auto;
+    color: white;
+}
+.footer .f1 h5, .f2 h5, .f3 h5{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto;
+    color: white;
+    padding: 10px 
+}
+.footer .f3 img{
+    height: 200px;
+    padding: 20px 20px;
+}
+
